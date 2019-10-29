@@ -21,11 +21,11 @@ const example = () => {
       x: 10,
       y: 10,
       type: 'horizontal',
-      iconType: 'dot',
+      labelType: 'dot',
       text: function (d) {
         return d;
       },
-      iconColor: function (d, i) {
+      labelColor: function (d, i) {
         return colors[i];
       }
     }
@@ -37,11 +37,11 @@ const example = () => {
       y: 110,
       type: 'horizontal',
       lineWidth: 400,
-      iconType: 'line',
+      labelType: 'line',
       text: function (d) {
         return d;
       },
-      iconColor: function (d, i) {
+      labelColor: function (d, i) {
         return colors[i];
       }
     }
@@ -52,11 +52,11 @@ const example = () => {
       x: 10,
       y: 210,
       type: 'vertical',
-      iconType: 'square',
+      labelType: 'square',
       text: function (d) {
         return d;
       },
-      iconColor: function (d, i) {
+      labelColor: function (d, i) {
         return colors[i];
       }
     }

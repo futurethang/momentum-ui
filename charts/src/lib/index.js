@@ -16,7 +16,6 @@ import Colors from './colors/index';
 import Preload from './preload/index';
 import Break from './break/index';
 import Template from './template/index';
-import Preset from './template/preset';
 import Legends from './legends/index';
 
 const components = {
