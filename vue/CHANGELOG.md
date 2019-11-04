@@ -3,49 +3,6 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [1.0.0-beta.34](https://github.com/momentum-design/momentum-ui/compare/@momentum-ui/vue@1.0.0-beta.33...@momentum-ui/vue@1.0.0-beta.34) (2019-11-14)
-
-**Note:** Version bump only for package @momentum-ui/vue
-
-
-
-
-
-# [1.0.0-beta.33](https://github.com/momentum-design/momentum-ui/compare/@momentum-ui/vue@1.0.0-beta.32...@momentum-ui/vue@1.0.0-beta.33) (2019-11-13)
-
-**Note:** Version bump only for package @momentum-ui/vue
-
-
-
-
-
-# [1.0.0-beta.32](https://github.com/momentum-design/momentum-ui/compare/@momentum-ui/vue@1.0.0-beta.31...@momentum-ui/vue@1.0.0-beta.32) (2019-11-09)
-
-**Note:** Version bump only for package @momentum-ui/vue
-
-
-
-
-
-# [1.0.0-beta.31](https://github.com/momentum-design/momentum-ui/compare/@momentum-ui/vue@1.0.0-beta.30...@momentum-ui/vue@1.0.0-beta.31) (2019-11-07)
-
-
-### Features
-
-* **Vue:** add Accordion, DatePicker ([e6f66ad](https://github.com/momentum-design/momentum-ui/commit/e6f66ad))
-
-
-
-
-
-# [1.0.0-beta.30](https://github.com/momentum-design/momentum-ui/compare/@momentum-ui/vue@1.0.0-beta.29...@momentum-ui/vue@1.0.0-beta.30) (2019-11-05)
-
-**Note:** Version bump only for package @momentum-ui/vue
-
-
-
-
-
 # [1.0.0-beta.29](https://github.com/momentum-design/momentum-ui/compare/@momentum-ui/vue@1.0.0-beta.28...@momentum-ui/vue@1.0.0-beta.29) (2019-11-04)
 
 
