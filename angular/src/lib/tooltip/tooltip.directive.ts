@@ -220,6 +220,7 @@ export class TooltipDirective implements OnDestroy {
         this.eventSubs = new Subscription();
         this.eventSubs.add(this.tooltipRef.instance.mouseLeaveEvent.subscribe(() => {
           this.keepTooltipOpen = false;
+          this.delay = 500;
           this.close();
         }));
         this.eventSubs.add(this.tooltipRef.instance.mouseEnterEvent.subscribe(keepOpen => {
