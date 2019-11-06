@@ -1,7 +1,23 @@
+@import "../../tools/functions/core";
 @import '../../tools/mixins/core';
 
 // Settings
-@import '../../settings/settings';
+@import "../../colors/settings-base.scss";
+@import "../../colors/settings-transparencies.scss";
+@import "../../settings/core.scss";
+@import "../../settings/focus.scss";
+@import "../../settings/media.scss";
+@import "../../settings/z-index.scss";
+@import "../../typography/settings.scss";
+@import "../input/settings.scss";
+@import "../button/settings.scss";
+@import "../checkbox/settings.scss";
+@import "../forms/settings.scss";
+@import "../list-item/settings.scss";
+@import "../overlay/settings.scss";
+@import "../radio/settings.scss";
+@import "../select/settings.scss";
+@import "../toggle-switch/settings.scss";
 
 // Tools
 @import '../../tools/mixins/baseline';
@@ -21,7 +37,8 @@
 // Generic
 @import '../../generic/global';
 
-// Components
+// Component Helpers
+@import '../../components/overlay/event-overlay';
 // extracted from @import '../../components/button/button';
 @include exports('md-button') {
   [class|='#{$button__class}__container'] {
@@ -56,7 +73,6 @@
   }
 }
 
-
-@import '../../components/overlay/event-overlay';
+// Component Specific
 
 @import 'coachmark';
