@@ -1,8 +1,18 @@
 @import '../../tools/functions/core';
 @import '../../tools/mixins/core';
 
+@import '~@momentum-ui/icons/scss/mixins';
+@import '~@momentum-ui/icons/scss/variables';
+
 // Settings
-@import '../../settings/settings';
+@import "../../colors/settings-base.scss";
+@import "../../colors/settings-transparencies.scss";
+@import "../../colors/settings-legacy.scss";
+@import "../../settings/core.scss";
+@import "../../settings/focus.scss";
+@import "../../settings/media.scss";
+@import "../../settings/z-index.scss";
+@import "../../typography/settings.scss";
 
 // Tools
 @import '../../tools/mixins/border-radius';
@@ -12,7 +22,6 @@
 @import '../../generic/global';
 
 // Component Helpers
-@mixin icon-unread-badge_16() { content: char-from-code("fa01"); }
 @import '../../components/loading/loading';
 
 // Avatar Specific
