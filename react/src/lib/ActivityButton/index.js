@@ -4,6 +4,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import get from 'lodash/get';
 import { Button, Icon } from '@momentum-ui/react';
+import '@momentum-ui/core/css/components/activity-button/module.css';
 
 const ActivityButton = props => {
   const {
