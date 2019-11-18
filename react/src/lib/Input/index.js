@@ -11,6 +11,7 @@ import {
   InputSection,
   Label,
  } from '@momentum-ui/react';
+ import '@momentum-ui/core/css/components/input/module.css';
 
 const determineMessageType = array => {
   return array.reduce((agg, e) => {
