@@ -7,6 +7,7 @@ import {
   Loading,
   Icon,
 } from '@momentum-ui/react';
+import '@momentum-ui/core/css/components/avatar/module.css';
 
 class Avatar extends React.Component {
   static displayName = 'Avatar';
