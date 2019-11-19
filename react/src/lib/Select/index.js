@@ -15,6 +15,7 @@ import {
   List,
 } from '@momentum-ui/react';
 import SelectContext from '../SelectContext';
+import '@momentum-ui/core/css/components/select/module.css';
 
 class Select extends React.Component {
   state = {
