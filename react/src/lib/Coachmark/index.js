@@ -4,6 +4,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import omit from 'lodash/omit';
 import { EventOverlay, Button } from '@momentum-ui/react';
+import '@momentum-ui/core/css/components/coachmark/module.css';
 
 class Coachmark extends React.Component {
   static displayName = 'Coachmark';
