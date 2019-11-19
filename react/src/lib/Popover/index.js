@@ -4,7 +4,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { EventOverlay } from '@momentum-ui/react';
 import omit from 'lodash/omit';
-
+import '@momentum-ui/core/css/components/popover/module.css';
 class Popover extends React.Component {
 
   state = {
