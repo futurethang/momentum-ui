@@ -8,7 +8,7 @@ import { UIDReset } from 'react-uid';
 import SelectableContext from '../SelectableContext';
 import ListContext from '../ListContext';
 import MenuContext from '../MenuContext';
-
+import '@momentum-ui/core/css/components/menu/module.css';
 class Menu extends React.Component {
   constructor(props) {
     super(props);
