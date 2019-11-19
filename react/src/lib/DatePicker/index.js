@@ -15,6 +15,7 @@ import {
 } from '@momentum-ui/react/utils/dateUtils';
 import moment from 'moment';
 import omit from 'lodash/omit';
+import '@momentum-ui/core/css/components/date-picker/module.css';
 
 class DatePicker extends React.Component {
   constructor(props) {
