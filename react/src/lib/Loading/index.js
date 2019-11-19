@@ -2,6 +2,7 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
+import '@momentum-ui/core/css/components/loading/module.css';
 
 const Loading = props => {
   const {
