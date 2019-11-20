@@ -3,7 +3,7 @@
 import omit from 'lodash/omit';
 import PropTypes from 'prop-types';
 import React from 'react';
-
+import '@momentum-ui/core/css/components/toggle-switch.css';
 class ToggleSwitch extends React.PureComponent {
 
   state = {
