@@ -11,6 +11,7 @@ import {
   Input,
   EventOverlay,
 } from '@momentum-ui/react';
+import '@momentum-ui/core/css/components/time-picker.css';
 
 class TimePicker extends React.Component {
 
