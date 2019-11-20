@@ -2,7 +2,7 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import '@momentum-ui/core/css/components/badge/module.css';
+import '@momentum-ui/core/css/components/badge.css';
 
 const Badge = props => {
   const { className, rounded, color, ...otherHTMLProps } = props;

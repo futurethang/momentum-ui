@@ -3,7 +3,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Icon } from '@momentum-ui/react';
-import '@momentum-ui/core/css/components/alert-banner/module.css';
+import '@momentum-ui/core/css/components/alert-banner.css';
 
 const AlertBanner = props => {
   const {

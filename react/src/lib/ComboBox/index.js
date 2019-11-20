@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 import { EventOverlay, Input, ListItem, InputSearch } from '@momentum-ui/react';
 import omit from 'lodash/omit';
 import uniqueId from 'lodash/uniqueId';
-import '@momentum-ui/core/css/components/combo-box/module.css';
+import '@momentum-ui/core/css/components/combo-box.css';
 
 class ComboBox extends React.Component {
   static displayName = 'ComboBox';

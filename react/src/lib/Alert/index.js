@@ -6,7 +6,7 @@ import {
   Button,
   Icon,
 } from '@momentum-ui/react';
-import '@momentum-ui/core/css/components/alert/module.css';
+import '@momentum-ui/core/css/components/alert.css';
 
 class Alert extends React.PureComponent {
   render () {

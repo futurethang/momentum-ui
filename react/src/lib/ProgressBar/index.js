@@ -2,7 +2,7 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import '@momentum-ui/core/css/components/progress/module.css';
+import '@momentum-ui/core/css/components/progress.css';
 
 const ProgressBar = props => {
   const { label, min, max, value, dynamic, displayFormat, color } = props;

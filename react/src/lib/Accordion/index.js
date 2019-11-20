@@ -2,7 +2,7 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import '@momentum-ui/core/css/components/accordion/module.css';
+import '@momentum-ui/core/css/components/accordion.css';
 
 class Accordion extends React.Component {
   static displayName = 'Accordion';

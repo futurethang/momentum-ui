@@ -3,7 +3,7 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 import { Label } from '@momentum-ui/react';
-import '@momentum-ui/core/css/components/checkbox/module.css';
+import '@momentum-ui/core/css/components/checkbox.css';
 
 const Checkbox = props => {
   const {

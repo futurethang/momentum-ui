@@ -8,7 +8,7 @@ import { UIDConsumer } from 'react-uid';
 import ButtonGroupContext from '../ButtonGroupContext';
 import SelectableContext, { makeKeyboardKey } from '../SelectableContext';
 import mapContextToProps from 'react-context-toolbox/mapContextToProps';
-import '@momentum-ui/core/css/components/button/module.css';
+import '@momentum-ui/core/css/components/button.css';
 
 class Button extends React.Component {
   componentDidMount() {

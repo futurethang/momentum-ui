@@ -4,7 +4,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 // Library that manages Tabbing and Accessibility for Modal https://github.com/davidtheclark/react-aria-modal
 import AriaModal from 'react-aria-modal';
-import '@momentum-ui/core/css/components/modal/module.css';
+import '@momentum-ui/core/css/components/modal.css';
 class Modal extends React.Component {
 
   static childContextTypes = {

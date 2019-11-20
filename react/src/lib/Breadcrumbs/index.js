@@ -2,7 +2,7 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import '@momentum-ui/core/css/components/breadcrumbs/module.css';
+import '@momentum-ui/core/css/components/breadcrumbs.css';
 class Breadcrumbs extends React.PureComponent {
   static displayName = 'Breadcrumbs';
 

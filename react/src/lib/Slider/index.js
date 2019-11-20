@@ -3,7 +3,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import SliderPointer from './SliderPointer';
-import '@momentum-ui/core/css/components/slider/module.css';
+import '@momentum-ui/core/css/components/slider.css';
 
 class Slider extends React.Component {
   constructor(props) {

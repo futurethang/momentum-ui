@@ -7,7 +7,7 @@ import qsa from 'dom-helpers/query/querySelectorAll';
 import { UIDReset } from 'react-uid';
 import ButtonGroupContext from '../ButtonGroupContext';
 import SelectableContext from '../SelectableContext';
-import '@momentum-ui/core/css/components/button-group/module.css';
+import '@momentum-ui/core/css/components/button-group.css';
 
 class ButtonGroup extends React.Component {
   static getDerivedStateFromProps({ active }, state) {

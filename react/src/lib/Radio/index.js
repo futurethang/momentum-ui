@@ -3,7 +3,7 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 import { Label } from '@momentum-ui/react';
-import '@momentum-ui/core/css/components/radio/module.css';
+import '@momentum-ui/core/css/components/radio.css';
 
 const Radio = props => {
   const {

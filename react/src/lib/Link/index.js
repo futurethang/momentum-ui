@@ -2,7 +2,7 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import '@momentum-ui/core/css/components/link/module.css';
+import '@momentum-ui/core/css/components/link.css';
 
 const Link = ({ className, children, color, disabled, tag, theme, ...props }) => {
   return (

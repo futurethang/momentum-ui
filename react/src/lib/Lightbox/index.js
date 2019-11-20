@@ -4,7 +4,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Modal from 'react-aria-modal';
 import { Spinner, Tooltip, Icon } from '@momentum-ui/react';
-import '@momentum-ui/core/css/components/lightbox/module.css';
+import '@momentum-ui/core/css/components/lightbox.css';
 
 class Lightbox extends React.Component {
 

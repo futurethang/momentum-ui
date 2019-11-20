@@ -8,7 +8,7 @@ import { UIDConsumer } from 'react-uid';
 import SelectableContext, { makeKeyboardKey } from '../SelectableContext';
 import ListContext from '../ListContext';
 import mapContextToProps from 'react-context-toolbox/mapContextToProps';
-import '@momentum-ui/core/css/components/list-item/module.css';
+import '@momentum-ui/core/css/components/list-item.css';
 
 class ListItem extends React.Component {
   componentDidMount() {

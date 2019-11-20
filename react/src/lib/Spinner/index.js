@@ -4,7 +4,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import isNumber from 'lodash/isNumber';
 import round from 'lodash/round';
-import '@momentum-ui/core/css/components/loader/module.css';
+import '@momentum-ui/core/css/components/loader.css';
 
 const Spinner = props => {
   const {
