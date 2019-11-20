@@ -2,6 +2,7 @@
 
  import React from 'react';
 import PropTypes from 'prop-types';
+import '@momentum-ui/core/css/components/tabs.css';
 
 class Tabs extends React.Component {
 
