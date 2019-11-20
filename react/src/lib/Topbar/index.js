@@ -3,6 +3,7 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 import { prefix } from '../utils/index';
+import '@momentum-ui/core/css/components/top-bar.css';
 
 class Topbar extends React.Component {
   render() {
