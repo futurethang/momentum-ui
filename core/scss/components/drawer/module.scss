@@ -1,4 +1,7 @@
 @import '../../tools/functions/core';
+@import "../../colors/settings-base.scss";
+@import '../../settings/core';
+@import '../../tools/mixins/spacing-responsive.scss';
 @import '../../settings/rem';
 @import '../../settings/z-index';
 @import 'settings';
