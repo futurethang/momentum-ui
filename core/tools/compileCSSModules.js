@@ -14,7 +14,7 @@ const modules = [
   'button',
   'button-group',
   'card',
-  'cdk-overlay',
+  // 'cdk-overlay',
   'checkbox',
   'chip',
   'close',
@@ -26,11 +26,11 @@ const modules = [
   'date-picker',
   'drawer',
   'date-range-picker',
-  'editable-textfield',
+  // 'editable-textfield',
   'overlay',
-  'footer',
-  'hero',
-  'icon',
+  // 'footer',
+  // 'hero',
+  // 'icon',
   'input',
   'input-phone-number',
   'label',
@@ -80,7 +80,7 @@ const compileCSSModules = () => {
       function(error, result) {
         // node-style callback from v3.0.0 onwards
         if (error) {
-          console.log(error.status); // used to be "code" in v2x and below
+          console.log(module); // used to be "code" in v2x and below
           console.log(error.column);
           console.log(error.message);
           console.log(error.line);
